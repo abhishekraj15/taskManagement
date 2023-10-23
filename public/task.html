@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="./css/task.css">
+</head>
+<body>
+    <div class="d-flex">
+        <div class="side-bar">
+            <h3 class="logo">Task Manager</h3>
+            <ul class="side-bar-items">
+                <li id="mine">My Activity</li>
+                <li id="teams">Teams Activity</li>
+            </ul>
+        </div>
+        <div class="main">
+            <form class="form">
+                <input type="text" name="task" placeholder="Add Task">
+                <button type="submit">Submit</button>
+            </form>
+            <table>
+                <tr>
+                  <th>Username</th>
+                  <th>Email</th>
+                  <th>Task</th> 
+                  <th></th>
+                </tr>
+              </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/task.js"></script>
+</body>
+</html>
